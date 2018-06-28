@@ -1,7 +1,11 @@
 .body {
 font-family: 'Hind Vadodara';
+display: flex;
+align-items: center;
 }
 
 .main {
 font-size: 30px;
+width: 80%;
+min-width: 300px;
 }
