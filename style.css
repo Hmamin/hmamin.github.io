@@ -14,8 +14,12 @@
 	justify-content: center;
 }
 
+img {
+	max-width: 100%;
+}
+
 h1 {
-	font-family: 'Open Sans Condensed';
+	font-family: 'Droid Serif';
 	font-size: 45px;
 	margin: 0px;
 }
@@ -57,6 +61,11 @@ h1 {
 	margin: 0px;
 }
 
+.center {
+	display: flex;
+	justify-content: center;
+}
+
 ul {
 	text-decoration: none;
 	list-style: none;
@@ -92,4 +101,22 @@ a, a:active, a:visited {
 
 a:hover {
 	font-weight: bold;
+}
+
+.current-link {
+	border-bottom: 2px black dashed;
+}
+
+@media (max-width: 768px){
+	.col-2, .col-4, .col-6, .col-8, .col-9 {
+		width: 100%;
+	}
+	
+	ul {
+		display: inline-flex;
+	}
+	
+	li {
+		padding-right: 25px;
+	}
 }
