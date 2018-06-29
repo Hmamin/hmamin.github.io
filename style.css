@@ -16,7 +16,8 @@
 
 h1 {
 	font-family: 'Open Sans Condensed';
-	font-size: 50px;
+	font-size: 45px;
+	margin: 0px;
 }
 
 .row {
@@ -27,6 +28,7 @@ h1 {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
+	#border: 1px black solid;
 }
 
 .col-2 {
@@ -51,6 +53,8 @@ h1 {
 
 .col-2, .col-4, .col-6, .col-8, .col-9 {
 	padding: 10px 20px;
+	min-width: 225px;
+	margin: 0px;
 }
 
 ul {
@@ -66,11 +70,26 @@ li {
 .main {
 	font-family: 'Hind Siliguri', 'Trebuchet';
 	font-size: 30px;
-	min-width: 300px;
 	color: #4d6d63;
 }
 
-a, a:active, a:hover, a:visited {
+.spacer {
+	text-align: center;
+	#font-weight: bold;
+	font-size: 40px;
+	margin: 10px;
+}
+
+.footer {
+	margin-top: 50px;
+	font-size: 10px;
+}
+
+a, a:active, a:visited {
 	text-decoration: none;
 	color: #343837;
+}
+
+a:hover {
+	font-weight: bold;
 }
