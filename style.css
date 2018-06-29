@@ -21,6 +21,7 @@ img {
 h1 {
 	font-family: 'Droid Serif';
 	font-size: 45px;
+	font-variant: small-caps;
 	margin: 0px;
 }
 
@@ -58,6 +59,7 @@ h1 {
 .col-2, .col-4, .col-6, .col-8, .col-9 {
 	padding: 10px 20px;
 	min-width: 225px;
+	max-width: 1000px;
 	margin: 0px;
 }
 
